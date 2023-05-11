@@ -1,0 +1,89 @@
+body{
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 25%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .qr-code-image img {
+    width: 280px; /* set the width of the image */
+    height: auto; /* maintain the aspect ratio of the image */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 6%;
+    margin-top: 6%;
+
+  }
+  .text h1 {
+    font-size: 25px;
+    padding: auto;
+    margin-left: auto; /* set the font size of the heading */
+    padding: 0 2rem; /* add some padding around the heading */
+  }
+  .text p{
+    font-size: 15px;
+    padding: auto;
+    padding: 0 2rem;;
+  }
+  .attribution {
+    background-color: white;
+    margin-top: 3rem;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  /* .qr-code-image {
+    display: flex; /* use flexbox to align the image and text vertically */
+    /* align-items: center; /* align the image and text vertically */
+    /* justify-content: center; center the image and text horizontally */ 
+
+    /* /* .qr-code-image{
+        width: 10px; 
+        height: 10px;
+    } */
+  
+  /* .qr-code-image {
+    margin-bottom: 2rem;
+
+
+  } */ 
+  
+  /* .text {
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .attribution {
+    margin-top: 3rem;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+   */
